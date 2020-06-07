@@ -1,0 +1,77 @@
+{
+  "header": [
+    {
+      "name": "Camila"
+    }
+  ],
+  "card": [
+    {
+      "category": "estratega",
+      "balance": "$1.570.000"
+    }
+  ],
+  "investment": [
+    {
+      "amount": "$1.600.000",
+      "quantity": "-$30000"
+    }
+  ],
+  "goals": [
+    {
+      "titleGoal": "Viaje a Islas Canarias",
+      "performance": "$1.630.000",
+      "goal": "$8.000.000",
+      "image": "assets/img/goals/metas.png",
+      "percent":"20%"
+    },
+    {
+      "titleGoal": "Macbook Pro",
+      "performance": "$0",
+      "goal": "$7.000.000",
+      "image": "assets/img/goals/macbook.png",
+      "percent":"0%"
+    }
+  ],
+  "briefcase": [
+    {
+      "status": "FIC Old Mutual Efectivo",
+      "balance": "$240.000",
+      "type": "Renta fija  Depósito a la fija ",
+      "percent": "15%"
+    }
+  ],
+  "sliderArray": [
+    {
+      "img": "assets/img/slider/ahorro1.png",
+      "title": "Esto es AHORRO",
+      "text": "Conoce como nuestro RoboAdvisor crea el mejor portafolio de inversión para ti"
+    },
+    {
+      "img": "assets/img/slider/ahorro1.png",
+      "title": "Esto es INVERSIÓN",
+      "text": "Conoce como nuestro RoboAdvisor crea el mejor portafolio de inversión para ti"
+    },
+    {
+      "img": "assets/img/slider/ahorro1.png",
+      "title": "Esto es RENTABILIDAD",
+      "text": "Conoce como nuestro RoboAdvisor crea el mejor portafolio de inversión para ti"
+    }
+  ],
+  "blog": [
+    {
+      "title": "10 gastos que debes evitar",
+      "description": "Aunque el 66% de los adultos recibió educación para el ahorro, apenas el 44% ahorra de manera fomal.",
+      "image": "assets/img/saving/gastos.png"
+    },
+    {
+      "title": "10 gastos que debes evitar",
+      "description": "Aunque el 66% de los adultos recibió educación para el ahorro, apenas el 44% ahorra de manera fomal.",
+      "image": "assets/img/saving/gastos2.png"
+    },
+    {
+      "title": "10 gastos que debes evitar",
+      "description": "Aunque el 66% de los adultos recibió educación para el ahorro, apenas el 44% ahorra de manera fomal.",
+      "image": "assets/img/saving/gastos3.png"
+    }
+  ]
+}

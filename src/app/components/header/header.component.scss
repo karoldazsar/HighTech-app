@@ -1,0 +1,10 @@
+@import '../../../styles.scss';
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &-icon{
+    color: $blue-light;
+  }
+}

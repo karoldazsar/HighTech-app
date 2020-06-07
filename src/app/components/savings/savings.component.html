@@ -1,0 +1,12 @@
+<div class="saving">
+    <div class="saving-card" *ngFor="let blogs of blog">
+       <div class="saving-card_text">
+        <h5>{{blogs.title}}</h5>
+        <p>{{blogs.description}}</p>
+
+       </div>
+       <figure>
+           <img src="{{blogs.image}}" />
+       </figure>
+    </div>
+</div>

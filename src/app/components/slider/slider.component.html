@@ -1,0 +1,29 @@
+<h2>Los P*t@s del ahorro</h2>
+<div class="container">
+  <div
+    class="img-container"
+    *ngFor="let slide of sliderArray; let select = index;"
+    [ngClass]="{'selected': select == selectedIndex}"
+    [ngStyle]="{'transform': 'translateX('+ transform + '%' +')', 'transition': '.4s'}"
+  >
+    <img src="{{slide.img}}" alt="{{slide.alt}}" />
+    <div class="img-container-text">
+      <h6>{{slide.title}}</h6>
+      <p>{{slide.text}}</p>
+    </div>
+  </div>
+</div>
+
+<div class="slider">
+  <div
+    class="slider-button"
+    *ngFor="let slide of sliderArray; let x =index"
+    (click)="selected(x)"
+    (keypress)="keySelected(x)"
+  >
+    <div
+      class="slider-button-icon"
+      [ngClass]="{'select': x == selectedIndex}"
+    ></div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+@import "./assets/styles/colors";
+
+h2, h6 {
+  color: $text-gray;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+p, span, label {
+  color: $white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 1em;
+  background: $bg-gray;
+  @media screen and (max-width: 768px) {
+    overflow-x: hidden;
+  }
+}

@@ -1,0 +1,35 @@
+<section>
+  <div class="title">
+    <h2>Conoce tu portafolio</h2>
+    <p>Estratega</p>
+  </div>
+  <div class="brief">
+    <div class="brief-box">
+      <div class="brief-box-robo">
+        <div class="brief-box-robo_circle">
+          <img src="../../../assets/img/briefcase/portafolio.png" />
+          <label class="brief-box-robo_circle-text">RoboAdvisor</label>
+          <label class="brief-box-robo_circle-info">10 Fondos</label>
+        </div>
+      </div>
+      <div class="brief-box-info" *ngFor="let brief of briefcase">
+        <div class="brief-box-info_logo">
+          <img src="../../../assets/img/briefcase/logo_skandia.png" />
+          <span>{{brief.percent}}</span>
+        </div>
+        <div class="brief-box-info_text">
+          <label>{{brief.status}}</label>
+          <span class="brief-box-info_text_number">{{brief.balance}}</span>
+          <span class="brief-box-info_text_type">Tipo de activo</span>
+          <p>
+          {{brief.type}}
+          </p>
+        </div>
+      </div>
+    </div>
+    <p>
+      Tu dinero se invierte de la forma más eficiente de acuerdo al perfil de
+      riesgo asignado por nuestro RoboAdvisor.
+    </p>
+  </div>
+</section>
