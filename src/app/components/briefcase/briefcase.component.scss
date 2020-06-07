@@ -1,0 +1,101 @@
+@import "../../../styles.scss";
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  p {
+    background: $bg-green;
+    color: $green;
+    border: 0.5px solid $green;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 5px;
+  }
+}
+.brief {
+  @include card;
+  padding: 1em;
+  margin: 0 0 2em 0;
+  &-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &-robo {
+      margin-right: 1em;
+      &_circle {
+        width: 120px;
+        height: 120px;
+        text-align: center;
+        border-radius: 50%;
+        border: 10px solid $text-gray;
+        opacity: 0.9;
+        box-sizing: border-box;
+        img {
+          width: 40px;
+          display: block;
+          margin: 10px auto 0;
+        }
+        &-text {
+          color: $purple;
+          font-size: 10px;
+          font-weight: 100;
+        }
+        &-info {
+          color: $text-gray;
+          display: block;
+          font-size: 12px;
+        }
+      }
+    }
+    &-info {
+      &_logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        img {
+          width: 90px;
+          height: auto;
+        }
+        span {
+          background: $green;
+          font-size: 10px;
+          width: 36px;
+          text-align: center;
+          padding: 1px 0;
+          border-radius: 6px;
+          margin-left: 3em;
+        }
+      }
+      &_text {
+        label {
+          color: $text-gray;
+          font-size: 12px;
+          font-weight: 100;
+        }
+        &_number {
+          color: $text-gray;
+          font-size: 12px;
+          display: block;
+        }
+        &_type {
+          color: $green;
+          font-size: 10px;
+          display: block;
+        }
+        p {
+          margin: 0;
+          color: $text-gray;
+          font-size: 10px;
+          font-weight: 100;
+        }
+      }
+    }
+  }
+  p{
+      color: $text-gray;
+      font-size: 10px;
+      text-align: left;
+  }
+}

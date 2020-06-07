@@ -1,0 +1,30 @@
+@import "../../../styles.scss";
+
+.menu {
+  @include card;
+  height: 60px;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 5em;
+  &-icon {
+    color: $icon-gray;
+    padding:0;
+    .active{
+        color: $blue-light;
+    }
+    li {
+      list-style: none;
+      text-align: center;
+      display: inline-grid;
+      margin: 0 15px;
+      fa-icon{
+          font-size: 20px;
+      }
+      a{
+          font-size: 10px;
+      }
+    }
+  }
+}

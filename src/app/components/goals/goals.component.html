@@ -1,0 +1,24 @@
+<section class="goals">
+  <div class="goals-title">
+    <h2>Tus metas</h2>
+    <fa-icon [icon]="faPlusCircle"></fa-icon>
+  </div>
+  <div class="goals-box">
+    <div class="goals-box-card" *ngFor="let goal of goals">
+      <figure class="goals-box-card_img">
+        <img src="{{goal.image}}" alt="Metas ahorro" />
+      </figure>
+      <h6>{{goal.titleGoal}}</h6>
+      <div class="goals-box-card_progress">
+        <div class="goals-box-card_progress-circle">
+            <span>{{goal.percent}}</span>
+            <!-- <div class="goals-card_progress-circle_advance"></div> -->
+          </div>
+        <div class="goals-box-card_progress-value">
+          <span>{{goal.performance}}</span>
+          <label>{{goal.goal}}</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
